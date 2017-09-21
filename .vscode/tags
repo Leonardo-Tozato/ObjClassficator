@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MODELS	../experimental.py	/^MODELS = {$/;"	kind:variable	line:16
+a	../predict.py	/^  a = argparse.ArgumentParser()$/;"	kind:variable	line:60
+ap	../experimental.py	/^    ap = argparse.ArgumentParser()$/;"	kind:variable	line:81
+args	../experimental.py	/^    args = vars(ap.parse_args())$/;"	kind:variable	line:84
+args	../predict.py	/^  args = a.parse_args()$/;"	kind:variable	line:62
+experimental.py	../experimental.py	1;"	kind:file	line:1
+fine_tune.py	../fine_tune.py	1;"	kind:file	line:1
+img	../predict.py	/^    img = Image.open(args.image)$/;"	kind:variable	line:69
+model	../predict.py	/^model = Xception(weights = 'imagenet')$/;"	kind:variable	line:10
+plotPred	../experimental.py	/^def plotPred(img, pred):$/;"	kind:function	line:55
+plotPred	../predict.py	/^def plotPred(img, pred):$/;"	kind:function	line:34
+pred	../predict.py	/^    pred = predict(model, img, (299, 299))$/;"	kind:variable	line:70
+predict	../experimental.py	/^def predict(args) :$/;"	kind:function	line:24
+predict	../predict.py	/^def predict(model, img, imgSize):$/;"	kind:function	line:12
+predict.py	../predict.py	1;"	kind:file	line:1
